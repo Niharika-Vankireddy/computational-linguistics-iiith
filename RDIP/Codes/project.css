@@ -1,0 +1,99 @@
+body{
+    background-color: #fff;
+}
+.menu-bar
+{
+    background-color: #660000;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:#fff;
+}
+#drop{
+    size: 25px;
+}
+.one{
+    padding-left: 20px;
+}
+.select{
+    padding: 6px 10px;
+    width: 200px;
+    background-color: #B5651D;
+    color: white;
+    font-size: 16px;
+}
+#para1{
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: darkblue;
+    font-weight: bolder;
+}
+#para2{
+    font-size: 17px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: lightblue;
+    font-weight: bolder;
+    padding-bottom: 80px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    margin: 5px;  
+    border-radius: 5px;
+    background-color: #A86E12;
+    color: white;
+}
+#disp2{
+    font-size: 20px;
+    color: blue;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+}
+#disp3{
+    font-size: 30px;
+    color: black;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+}
+#dispcheck{
+    font-weight: bolder;
+}
+#reform {
+    width: 190px;
+    height: 27px;
+    font-size: 15px;
+    margin: 10px; 
+    border-radius: 2px;
+}
+#check{
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    margin: 10px;
+}
+#getcrt{
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+    margin: 10px;
+}
+#getans{
+    font-size: 20px;
+    color: black;
+    line-height: 1.6;
+    font-weight: bolder;
+}
