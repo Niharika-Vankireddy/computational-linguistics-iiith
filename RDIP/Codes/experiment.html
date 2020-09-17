@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment</title>
+    <link rel="stylesheet" href="Project.css">  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="introduction.html"><i class="fa fa-info-circle" aria-hidden="true"></i>INTRODUCTION</a></li>
+
+            <li><a href="theory.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i><br>THEORY</a></li>
+
+            <li><a href="objective.html"><i class="fa fa-book" aria-hidden="true"></i><br>OBJECTIVE</a></li>
+
+            <li><a href="experiment.html"><i class="fa fa-laptop" aria-hidden="true"></i><br>EXPERIMENT</a></li>
+
+            <li><a href="quizzes.html"><i class="fa fa-quora" aria-hidden="true"></i><br>QUIZZES</a></li>
+            <li><a href="procedure.html"><i class="fa fa-cogs" aria-hidden="true"></i><br>PROCEDURE</a></li>
+        </ul>
+    </div>
+    <h2 class="one">Experiment: Forming sentences-2</h2>
+    <center>
+        <select class="select" onchange="selection()">
+            <option value="none" selected>---Select Language---</option>
+            <option  value="english"  id="english">English</option>
+            <option value="hindi"  id="hindi">Hindi</option>
+        </select><br>
+        <p id="para1"></p>
+        <p id="para2"></p>
+        <p id="disp1"></p>
+        <p id="disp2"></p>
+        <p id="disp3"></p>
+        <button id="reform"  style="visibility: hidden;" onclick="Reform()">Re-form the sentence</button><br>
+        <button id="check" style="visibility: hidden;" onclick="check()">Check the correctness of this sentence</button>
+        <p id="dispcheck"></p>
+        <button id="getcrt" style="visibility: hidden;" onclick="toggle()">Get correct sentence</button>
+        <p id="getans"></p>
+    </center>
+</section>
+<script src="Project.js"></script>
+</body>
+</html> 
