@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+}
+.select{
+    padding: 6px 10px;
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+    font-style: italic;
+}
